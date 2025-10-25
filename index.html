@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="website icon" type="png" href="imgs/Awatef-o.svg">
+  <title>Awatef | Coach</title>
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Icons (keep local paths) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Custom -->
+  <link rel="stylesheet" href="css/awatef.css">
+</head>
+<body>
+  <!-- ========== NAVBAR (reduced height) ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-white bg-opacity-75 border-bottom small-nav">
+    <div class="container justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#" aria-label="الصفحة الرئيسية">
+        <img src="imgs/Awatef-o.svg" alt="Coach Awatef" height="70" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="فتح القائمة">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse flex-grow-0" id="mainNav">
+        <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link px-2 px-lg-3" href="#Home">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link px-2 px-lg-3" href="#About">نبذة عني</a></li>
+          <li class="nav-item"><a class="nav-link px-2 px-lg-3" href="#Services">الخدمات</a></li>
+          <li class="nav-item"><a class="nav-link px-2 px-lg-3" href="#Results">النتائج</a></li>
+          <li class="nav-item">
+            <a class="btn main-btn ms-lg-2" href="#Contact">ابدئي الآن</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== SINGLE HERO (full width, shows Belt on first fold) ========== -->
+  <section id="Home" class="hero-one bg-cover" style="background-image:url('imgs/hero.jpg')">
+    <span class="overlay"></span>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center justify-content-lg-start">
+        <div class="col-12 col-lg-6 hero-caption text-center text-lg-end my-auto pe-lg-5">
+          <h1 class="display-5 mb-3">رحلتكِ للياقة تبدأ بخطوة واعية</h1>
+          <p class="lead mb-4">خسارة دهون ورفع لياقة بخطط ذكية وآمنة… متابعة واقعية ونتائج تدوم.</p>
+          <a href="#Services" class="btn btn-light px-4 py-2 fw-semibold">تعرّفي على الخدمات</a>
+          <div class="Hero__trust">مدربة معتمدة <span>•</span> خطط شخصية <span>•</span> متابعة دورية</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BELT / TICKER (reduced height) ========== -->
+  <section class="Belt">
+    <div class="Ticker">
+      <div class="Ticker__track" aria-hidden="true">
+        <span class="chip"><span>ISSA تدريب</span><span class="dot"></span></span>
+        <span class="chip"><span>NFPT تدريب</span><span class="dot"></span></span>
+        <span class="chip"><span>NFPT تغذية</span><span class="dot"></span></span>
+        <span class="chip"><span>NFPT كلاسات</span><span class="dot"></span></span>
+        <span class="chip"><span>Diploma التدريب الرياضي</span><span class="dot"></span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTIONS (placeholders) ========== -->
+<section id="About" class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <!-- العمود النصي -->
+      <div class="col-12 col-lg-7">
+        <h2 class="section-title mb-3">نبذة عني</h2>
+
+        <!-- تعريف مختصر -->
+        <p class="lead mb-4">
+        أخصائية تدريب رياضي وتغذية الرياضيين وعلوم الحركة معتمدة من وزارة الرياضة ومعهد إعداد القادة و ISSA الدولية، وخريجة دبلوم اللياقة البدنية وعلوم الرياضة من NFPT. هدفها؟ أن تصبح من الأساطير في عالم الرياضة، وتسعى جاهدة لبناء مجتمع واعٍ صحياً ورياضياً، يساعد الناس على اتخاذ قرارات ذكية حول صحتهم وأسلوب حياتهم، لتصبح الرياضة جزءًا إيجابيًا ودائمًا من حياتهم.
+        </p>
+
+        <!-- المهارات -->
+        <h3 class="h5 fw-bold mb-2">مهاراتي</h3>
+        <ul class="icon-list mb-0">
+          <li><i class="fa-regular fa-circle-check"></i> تصميم برامج تدريبية مخصصة</li>
+          <li><i class="fa-regular fa-circle-check"></i> التحفيز والمتابعة وتقييم التقدّم</li>
+          <li><i class="fa-regular fa-circle-check"></i> إدارة الجلسات والتواصل الفعّال</li>
+          <li><i class="fa-regular fa-circle-check"></i> معرفة بالتدريبات الهوائية والسلامة</li>
+        </ul>
+      </div>
+
+      <!-- شهاداتي: زر + طي/فتح -->
+<div class="certs mt-4">
+  <button class="certs-toggle w-100 text-start"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#certsCollapse"
+          aria-expanded="false"
+          aria-controls="certsCollapse">
+    <span class="title">شهاداتي</span>
+    <!-- السهم يبدأ لأعلى، ويتقلب للأسفل عند الفتح -->
+    <i class='bx bx-chevron-up'></i>
+  </button>
+
+  <div class="collapse mt-3" id="certsCollapse">
+    <div class="row row-cols-2 row-cols-md-3 g-3 certs-grid">
+
+      <!-- 1) ISSA CPT -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal1" title="مدربة شخصية معتمدة – ISSA">
+          <img src="imgs/1.png" alt="شهادة مدربة شخصية معتمدة – ISSA">
+          <span class="cap">مدربة شخصية معتمدة – ISSA</span>
+        </button>
+      </div>
+
+      <!-- 2) FAE Advanced Fitness Nutrition -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal2" title="مدربة تغذية اللياقة المتقدمة – FAE">
+          <img src="imgs/2.png" alt="شهادة مدربة تغذية اللياقة المتقدمة – FAE">
+          <span class="cap">مدربة تغذية اللياقة المتقدمة – FAE</span>
+        </button>
+      </div>
+
+      <!-- 3) NSCA CEU (1.3 CEUs) -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal3" title="ساعات تطوير مهني (NSCA 1.3 CEUs)">
+          <img src="imgs/3.png" alt="ساعات تطوير مهني (NSCA 1.3 CEUs)">
+          <span class="cap">ساعات تطوير مهني (NSCA 1.3 CEUs)</span>
+        </button>
+      </div>
+
+      <!-- 4) NFPT Group Fitness Trainer -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal4" title="مدربة تمارين جماعية – NFPT">
+          <img src="imgs/4.png" alt="شهادة مدربة تمارين جماعية – NFPT">
+          <span class="cap">مدربة تمارين جماعية – NFPT</span>
+        </button>
+      </div>
+
+      <!-- 5) NFPT International CPT -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal5" title="مدربة شخصية دولية معتمدة – NFPT">
+          <img src="imgs/5.png" alt="شهادة مدربة شخصية دولية معتمدة – NFPT">
+          <span class="cap">مدربة شخصية دولية معتمدة – NFPT</span>
+        </button>
+      </div>
+
+      <!-- 6) حكم كرة قدم مصغرة – الدرجة الثالثة -->
+      <div class="col">
+        <button type="button" class="cert" data-bs-toggle="modal" data-bs-target="#certModal6"
+                title="حكم كرة قدم مصغرة – الدرجة الثالثة (وزارة الرياضة / جمعية كرة القدم المصغرة)">
+          <img src="imgs/6.jpeg" alt="شهادة حكم كرة قدم مصغرة – الدرجة الثالثة (وزارة الرياضة / جمعية كرة القدم المصغرة)">
+          <span class="cap">حكم كرة قدم مصغرة – الدرجة الثالثة</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- البطاقة الجانبية -->
+  <div class="col-12 col-lg-5">
+    <div class="about-card p-4">
+      <div class="d-flex align-items-center gap-3 mb-3">
+        <img src="imgs/Awatef-o.svg" alt="Coach Awatef" height="44">
+          <div>
+            <h3 class="h5 m-0 fw-800">عواطف الشهراني</h3>
+            <small class="text-muted">مدربة رياضية معتمدة</small>
+          </div>
+      </div>
+          <!-- معلومات مختصرة -->
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="kv">
+                <span class="kv__k">الخبرة</span>
+                <span class="kv__v">5+ سنوات</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="kv">
+                <span class="kv__k">الموقع</span>
+                <span class="kv__v">خميس مشيط</span>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <!-- الخبرة العملية (رياضية فقط) -->
+          <h4 class="h6 fw-bold mb-2">الخبرة العملية</h4>
+          <ul class="timeline mb-0">
+            <li>
+              <span class="t__title">مدربة شخصية/جماعية</span>
+              <small class="t__desc">تصميم برامج، متابعة تقدّم، إشراف صالة الحديد</small>
+            </li>
+          </ul>
+
+          <hr class="my-4">
+
+          <!-- الدورات التخصصية داخل البطاقة -->
+          <h4 class="h6 fw-bold mb-2">دورات تخصصية</h4>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="chip-mini">الإصابات الرياضية</span>
+            <span class="chip-mini">تغذية الرياضيين</span>
+            <span class="chip-mini">تدريبات الحوامل</span>
+            <span class="chip-mini">الأساليب الحديثة في التدريب</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="Services" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">الخدمات</h2>
+      <p class="text-muted m-0">خدمات عملية ومخصّصة بهدف واضح وخطوات بسيطة.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- 1) جدول تغذية مخصص -->
+      <div class="col-12 col-md-6">
+        <div class="service-card h-100 p-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-bowl-food"></i>
+          </div>
+          <h3 class="h5 fw-800 mb-2">جدول تغذية مخصّص</h3>
+          <p class="text-muted mb-3">
+            خطة غذائية مبنية على احتياج جسمك وأسلوب حياتك؛ واقعية وسهلة التطبيق.
+          </p>
+          <ul class="icon-list mb-0">
+            <li><i class="fa-regular fa-circle-check"></i> مواءمة السعرات والعناصر حسب الهدف</li>
+            <li><i class="fa-regular fa-circle-check"></i> بدائل محلية وخيارات مرنة خارج البيت</li>
+            <li><i class="fa-regular fa-circle-check"></i> تدرّج واقعي لتثبيت العادات</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2) جدول تمارين مصمّم لهدفك -->
+      <div class="col-12 col-md-6">
+        <div class="service-card h-100 p-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+          <h3 class="h5 fw-800 mb-2">جدول تمارين مصمّم لهدفك</h3>
+          <p class="text-muted mb-3">
+            برنامج تدريبي بحسب هدفك (تنحيف – شد – زيادة عضل) وبناءً على حالتك الصحية.
+          </p>
+          <ul class="icon-list mb-0">
+            <li><i class="fa-regular fa-circle-check"></i> تقسيم أسابيع وعضلات واضح وسهل الاتّباع</li>
+            <li><i class="fa-regular fa-circle-check"></i> بدائل تمارين حسب توفر الأدوات/البيت/النادي</li>
+            <li><i class="fa-regular fa-circle-check"></i> مراعاة السلامة وتدرّج الأحمال</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 3) مكالمة خاصة -->
+      <div class="col-12 col-md-6">
+        <div class="service-card h-100 p-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3 class="h5 fw-800 mb-2">مكالمة خاصة</h3>
+          <p class="text-muted mb-3">
+            جلسة موجهة نناقش فيها كل الأسئلة ونرسم “خطة طريق” واقعية.
+          </p>
+          <ul class="icon-list">
+            <li><i class="fa-regular fa-circle-check"></i> إجابات واضحة ونصائح قابلة للتطبيق</li>
+            <li><i class="fa-regular fa-circle-check"></i> ترتيب الأولويات وتبسيط الخطوات</li>
+          </ul>
+          <div class="note mt-3">
+            <i class="fa-regular fa-envelope-open"></i>
+            <small>أرسلي جميع أسئلتك مسبقًا (رسالة واحدة مرتبة) قبل المكالمة.</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4) متابعة شهرين -->
+      <div class="col-12 col-md-6">
+        <div class="service-card h-100 p-4">
+          <div class="service-icon">
+            <i class="fa-regular fa-calendar-check"></i>
+          </div>
+          <h3 class="h5 fw-800 mb-2">متابعة شهر</h3>
+          <p class="text-muted mb-3">
+            متابعة عملية تساعدك على الالتزام وترجمة الخطة إلى نتيجة ملموسة.
+          </p>
+          <ul class="icon-list mb-0">
+            <li><i class="fa-regular fa-circle-check"></i> مراجعات دورية وتعديل الخطة حسب التقدّم</li>
+            <li><i class="fa-regular fa-circle-check"></i> تحفيز، تذكير بالعادات، وحلول للعوائق اليومية</li>
+            <li><i class="fa-regular fa-circle-check"></i> قياس بسيط للنتيجة (صور/قياسات بحسب راحتك)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <p class="tiny-disclaimer text-center text-muted mt-4">
+      <small>هذه الخدمات داعمة لأسلوب حياة صحي ولا تُعد بديلاً عن الاستشارة الطبية المتخصصة.</small>
+    </p>
+  </div>
+</section>
+
+
+<section id="Results" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">قالوا عني</h2>
+      <p class="text-muted m-0">تقييمات وتجارب مشتركاتي</p>
+    </div>
+
+    <div class="row g-4" id="resultsGrid">
+      <!-- كل بطاقة = اقتباس واحد | IMPORTANT: class="t-col" -->
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">رائعة جدًا يا كوتش، دايم تساعدين وتعطين نصايح بلا حدود.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">مبدعة وتحفّزيننا طول الوقت وتهتمين فينا، شكرًا 🤍</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">رااااااائعة مثلك!</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">تجربتي معك جميلة جدًا؛ متعاونة وتتابعين تمارين كل البنات، فعلًا كوتش ممتازة.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">من ألطف الكوتشات اللي قابلتهم؛ صادقة وأمينة وتساعدين حتى لو ما طلبنا، وتبسطين المعلومة لنوصل للهدف.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">تجربتي معك كانت جدًا رائعة.. حسّيتي فيني وقدّرتي ظروفي. شكرًا من أعماق قلبي يا كوتش عواطف ❤️</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">شكرًا على حرصك الدائم على أسلوبنا ودعمك المستمر؛ بفضلك تطوّرت واستفدت من التمارين بشكل واضح.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">كوتش عواطف، أنتِ أفضل كوتش مرّت علي.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">لي 3 سنوات مرتاحة معك؛ من أفضل ما يكون. إنسانة شغوفة وتخاف الله في شغلها.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">أنا ما أحب النادي إلا عشانك؛ إذا غبتي أحس النادي فقد روحه وحماسي يروح معك.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">بعد الله ثم تشجيعك، التزامي بالنادي صار أفضل بكثير.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">زرعتي فيني الطموح والصبر والاجتهاد، ومعك صرت أوعى بنفسي واختياراتي.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">تعامل راقٍ واحترام، أحب إنسانيتك وتواضعك—ربي يكتب أجرك.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">أنقذتيني من دوامة الدايت؛ علّمتيني آكل وأتمرن صح بطريقة بسيطة وواضحة.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">تبسّطين كل شيء وتسهّلين الخطوات علينا، وتجاوبين على كل أسئلتنا.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">أنتِ قدوة وقوة—أقوى امرأة شفتها، وتلهميني كل يوم.</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">أفضل كوتشن بالدنيا!!!</p>
+        </blockquote>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 t-col">
+        <blockquote class="result-card p-4 h-100">
+          <span class="qmark">“</span>
+          <p class="mb-0">الله يسعدك ويوفقك وينفع بك دائمًا يا رب 🤲</p>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- الأزرار -->
+    <div class="text-center mt-4 actions">
+      <button class="btn btn-primary" id="loadMoreTestimonials">رؤية المزيد</button>
+      <button class="btn btn-outline-secondary d-none" id="showLessTestimonials">عرض أقل</button>
+    </div>
+  </div>
+</section>
+
+<section id="Contact" class="py-5 bg-body-tertiary" dir="rtl">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">تواصل معي</h2>
+      <p class="text-muted m-0">اختاري الطريقة المناسبة لك أو أرسلي النموذج التالي.</p>
+    </div>
+
+    <div class="row g-4 align-items-start">
+      <!-- معلومات التواصل -->
+      <div class="col-12 col-lg-5">
+        <div class="contact-card p-4 h-100">
+          <div class="card-social">
+            <div class="social-icons">
+              <p>@i27ac</p>
+              <a href="https://snapchat.com/t/2Yi0Qnb1" target="_blank" data-translate="Follow">تابع</a>
+              <i class='bx bxl-snapchat'></i>
+            </div>
+            <div class="social-icons">
+              <p>@i27ac</p>
+              <a href="https://www.tiktok.com/@i27ac?_t=ZS-90ojU0ZEqZA&_r=1" target="_blank" data-translate="Follow">تابع</a>
+              <i class='bx bxl-tiktok' ></i>
+            </div>
+            <div class="social-icons">
+              <p>0501126761</p>
+              <a href="tel:966501126761" data-translate="Call">اتصل</a>
+              <i class='bx bx-phone'></i>
+            </div>
+            <div class="social-icons">
+              <p>0501126761</p>
+              <a href="https://wa.me/966501126761" target="_blank" data-translate="Sent">ارسل</a>
+              <i class='bx bxl-whatsapp' ></i>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <ul class="small text-muted mb-0">
+            <li>ساعات الرد: خلال 48 ساعة كحد أقصى.</li>
+            <li>للاستفسارات السريعة يُفضّل واتساب.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- نموذج الإرسال -->
+      <div class="col-12 col-lg-7">
+        <div class="contact-card p-4">
+          <h3 class="h5 fw-800 mb-3">أرسلي رسالة على الإيميل</h3>
+
+          <!-- رسالة النجاح -->
+          <div id="contactSuccess" class="alert alert-success d-none" role="alert" aria-live="polite">
+            تم استلام رسالتك، وسنرد خلال 48 ساعة بإذن الله.
+          </div>
+
+          <form id="contactForm" action="https://formsubmit.co/aaawatef219@gmail.com" method="POST" novalidate>
+            <!-- إعدادات FormSubmit -->
+            <input type="hidden" name="_subject" value="رسالة جديدة من موقع Coach Awatef">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="شكرًا لتواصلك، سنرد خلال 48 ساعة بإذن الله.">
+            <!-- Honeypot لمكافحة السبام -->
+            <input type="text" name="_honey" style="display:none">
+
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="cf_name">الاسم الكامل</label>
+                <input id="cf_name" name="name" type="text" class="form-control" required placeholder="مثال: سارة محمد">
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="cf_email">البريد الإلكتروني</label>
+                <input id="cf_email" name="email" type="email" class="form-control" required placeholder="name@example.com">
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="cf_phone">رقم الجوال</label>
+                <input id="cf_phone" name="phone" type="tel" class="form-control" required placeholder="05XXXXXXXX" pattern="^0?5\d{8}$" title="أدخلي رقم جوال سعودي بصيغة 05XXXXXXXX">
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="cf_service">الخدمة المطلوبة</label>
+                <select id="cf_service" name="service" class="form-select" required>
+                  <option value="" selected disabled>اختاري خدمة</option>
+                  <option>جدول تغذية مخصّص</option>
+                  <option>جدول تمارين مصمّم لهدفك</option>
+                  <option>مكالمة خاصة</option>
+                  <option>متابعة شهر</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mt-4 d-flex gap-2">
+              <button type="submit" class="btn main-btn" id="cf_submit">إرسال</button>
+              <button type="reset" class="btn btn-outline-secondary">إلغاء</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- مودال الشهادة 1-->
+<div class="modal fade" id="certModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">مدربة شخصية معتمدة – ISSA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/1.png" alt="شهادة مدربة شخصية معتمدة – ISSA" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مودال الشهادة 2-->
+<div class="modal fade" id="certModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">مدربة تغذية اللياقة المتقدمة – FAE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/2.png" alt="شهادة مدربة تغذية اللياقة المتقدمة – FAE" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مودال الشهادة 3-->
+<div class="modal fade" id="certModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ساعات تطوير مهني (NSCA 1.3 CEUs)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/3.png" alt="ساعات تطوير مهني (NSCA 1.3 CEUs)" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مودال الشهادة 4-->
+<div class="modal fade" id="certModal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">مدربة تمارين جماعية – NFPT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/4.png" alt="شهادة مدربة تمارين جماعية – NFPT" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مودال الشهادة 5-->
+<div class="modal fade" id="certModal5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">مدربة شخصية دولية معتمدة – NFPT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/5.png" alt="شهادة مدربة شخصية دولية معتمدة – NFPT" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مودال الشهادة 6-->
+<div class="modal fade" id="certModal6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-certificate">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">حكم كرة قدم مصغرة – الدرجة الثالثة</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/6.jpeg" alt="شهادة حكم كرة قدم مصغرة – الدرجة الثالثة (وزارة الرياضة / جمعية كرة القدم المصغرة)" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+
+  <!-- Belt loop script -->
+  <script>
+  (function () {
+    const container = document.querySelector('.Ticker');
+    const track = document.querySelector('.Ticker__track');
+    if (!container || !track) return;
+
+    const baseNodes = Array.from(track.children).map(n => n.cloneNode(true));
+
+    function buildLoop() {
+      track.style.animation = 'none';
+
+      track.innerHTML = '';
+      baseNodes.forEach(n => track.appendChild(n.cloneNode(true)));
+      const oneSetWidth = track.scrollWidth;
+
+      const copiesForHalf = Math.max(1, Math.ceil(container.clientWidth / oneSetWidth));
+      track.innerHTML = '';
+      for (let i = 0; i < copiesForHalf; i++) {
+        baseNodes.forEach(n => track.appendChild(n.cloneNode(true)));
+      }
+
+      const halfHTML = track.innerHTML;
+      track.innerHTML = halfHTML + halfHTML;
+
+      const halfWidthPx = track.scrollWidth / 2;
+      track.style.setProperty('--loop-dist', halfWidthPx + 'px');
+
+      void track.offsetWidth;
+      track.style.removeProperty('animation');
+    }
+
+    function rebuildWhenFontsReady() {
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(buildLoop);
+        document.fonts.addEventListener?.('loadingdone', buildLoop);
+        document.fonts.addEventListener?.('loadingerror', buildLoop);
+      } else {
+        buildLoop();
+      }
+    }
+
+    rebuildWhenFontsReady();
+    const ro = new ResizeObserver(() => buildLoop());
+    ro.observe(container);
+    setTimeout(buildLoop, 100);
+  })();
+  </script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const step = 4; // كم نكشف كل مرة
+  const cols = Array.from(document.querySelectorAll('#Results .t-col'));
+  const loadMoreBtn = document.getElementById('loadMoreTestimonials');
+  const showLessBtn = document.getElementById('showLessTestimonials');
+
+  let visible = step;
+
+  function render() {
+    cols.forEach((col, i) => col.classList.toggle('d-none', i >= visible));
+    // حالة الأزرار
+    if (visible >= cols.length) {
+      loadMoreBtn.classList.add('d-none');
+      showLessBtn.classList.remove('d-none');
+    } else {
+      loadMoreBtn.classList.remove('d-none');
+      showLessBtn.classList.toggle('d-none', visible <= step);
+    }
+  }
+
+  render();
+
+  loadMoreBtn.addEventListener('click', () => {
+    visible = Math.min(visible + step, cols.length);
+    render();
+  });
+
+  showLessBtn.addEventListener('click', () => {
+    visible = step;
+    render();
+    // رجوع لبداية القسم
+    document.getElementById('Results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+  </script>
+
+  <!-- SEND EMAIL -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function(){
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('contactSuccess');
+    const submitBtn = document.getElementById('cf_submit');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+
+      // تعطيل الزر أثناء الإرسال
+      submitBtn.disabled = true;
+      const oldText = submitBtn.textContent;
+      submitBtn.textContent = 'جارٍ الإرسال...';
+
+      try{
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          success.classList.remove('d-none');
+          form.reset();
+          success.scrollIntoView({behavior:'smooth', block:'start'});
+        } else {
+          alert('تعذر إرسال الرسالة حالياً. جرّبي لاحقًا أو تواصلي عبر واتساب.');
+        }
+      } catch(err){
+        alert('حدث خطأ غير متوقع. تواصلي عبر واتساب مؤقتًا.');
+      } finally{
+        submitBtn.disabled = false;
+        submitBtn.textContent = oldText;
+      }
+    });
+  });
+  </script>
+
+</body>
+</html>
